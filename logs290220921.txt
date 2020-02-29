@@ -1,0 +1,58 @@
+:apply actions "app/forms/MainForm.php (1)"
+:apply-bundle "ide\bundle\std\JPHPDesktopDebugBundle"
+:apply-bundle "ide\bundle\std\JPHPCoreBundle"
+:apply-bundle "ide\bundle\std\JPHPRuntimeBundle"
+:apply-bundle "ide\bundle\std\JPHPJsonBundle"
+:apply-bundle "ide\bundle\std\JPHPXmlBundle"
+:apply-bundle "ide\bundle\std\UIDesktopBundle"
+:apply-bundle "develnext\bundle\game2d\Game2DBundle"
+:apply-bundle "develnext\bundle\jfoenix\JFoenixBundle"
+> java -cp ... org.develnext.jphp.ext.javafx.FXLauncher
+   --> C:\Users\Dmitrij Dev\DevelNextProjects\OPHack ..
+[TRACE] Register extension 'Java', 5ms
+[TRACE] Register extension 'php.runtime.ext.NetExtension', 34ms
+[TRACE] Register extension 'Core', 68ms
+[TRACE] Register extension 'org.develnext.jphp.json.JsonExtension', 1ms
+[TRACE] Register extension 'org.develnext.jphp.ext.xml.XmlExtension', 4ms
+[TRACE] Register extension 'org.develnext.jphp.ext.javafx.JavaFXExtension', 132ms
+[TRACE] Register extension 'org.develnext.jphp.ext.gui.desktop.GuiDesktopExtension', 5ms
+[TRACE] Register extension 'org.develnext.jphp.zend.ext.standard.StandardExtension', 22ms
+[TRACE] Register extension 'bcmath', 1ms
+[TRACE] Register extension 'ctype', 3ms
+[TRACE] Register extension 'date', 0ms
+[TRACE] Register extension 'org.develnext.jphp.json.JsonExtension', 0ms
+[TRACE] Register extension 'json', 1ms
+[TRACE] Register extension 'org.develnext.jphp.zend.ext.ZendExtension', 58ms
+[TRACE] Register extension 'org.develnext.jphp.ext.game.GameExtension', 6ms
+[TRACE] Register extension 'org.develnext.jphp.ext.javafx.jfoenix.JFoenixExtension', 13ms
+[TRACE] Register extension 'SPL', 7ms
+[TRACE] Startup time = 465ms
+[INFO] Application starting ...
+[DEBUG] load 'framework' package.
+[DEBUG] load 'app' package.
+[DEBUG] load cached 'res://php/gui/framework/AbstractScript.php', 2 ms
+[DEBUG] load cached 'res://php/gui/framework/ApplicationTrait.php', 1 ms
+[DEBUG] load cached 'res://php/gui/framework/AbstractModule.php', 10 ms
+[DEBUG] load 'res://app/modules/AppModule.php', 23 ms
+[DEBUG] load cached 'res://php/gui/framework/EventBinder.php', 2 ms
+[DEBUG] load cached 'res://php/gui/framework/behaviour/custom/BehaviourManager.php', 1 ms
+[DEBUG] load cached 'res://php/gui/framework/behaviour/custom/ModuleBehaviourManager.php', 2 ms
+[DEBUG] load cached 'res://php/gui/framework/behaviour/custom/BehaviourLoader.php', 2 ms
+[DEBUG] Module 'AppModule' is created.
+[DEBUG] load cached 'res://php/gui/framework/ScriptEvent.php', 1 ms
+[DEBUG] load cached 'res://php/gui/framework/AbstractForm.php', 9 ms
+[DEBUG] load 'res://app/forms/MainForm.php', 13 ms
+[DEBUG] load cached 'res://php/gui/framework/DataUtils.php', 1 ms
+[DEBUG] load cached 'res://php/gui/UXNodeWrapper.php', 9 ms
+[DEBUG] load cached 'res://php/gui/UXLabeledWrapper.php', 1 ms
+[DEBUG] load cached 'res://php/gui/UXButtonWrapper.php', 2 ms
+[DEBUG] load cached 'res://php/gui/UXLabelWrapper.php', 1 ms
+[DEBUG] load cached 'res://php/gui/UXLabelExWrapper.php', 2 ms
+[DEBUG] load 'res://app/modules/MainModule.php', 2 ms
+[DEBUG] Module 'MainModule' is created.
+[DEBUG] load cached 'res://php/gui/framework/behaviour/custom/FormBehaviourManager.php', 1 ms
+[DEBUG] load cached 'res://php/gui/framework/behaviour/custom/AbstractBehaviour.php', 3 ms
+[DEBUG] load cached 'res://php/gui/framework/behaviour/custom/EffectBehaviour.php', 5 ms
+[DEBUG] load cached 'res://behaviour/custom/GlowEffectBehaviour.php', 5 ms
+[DEBUG] Form 'MainForm' is created.
+[DEBUG] Application start is done.
